@@ -2646,7 +2646,7 @@ body{
     align-items: center;
     justify-content: center;
     button{
-        border: 1px solid $white;
+        border: 1px solid $primary !important;
         color: #fff;
         background-color: $primary;
         padding: 10px 45px;
@@ -2654,7 +2654,7 @@ body{
         &:hover{
             color: $primary;
             background-color: $white;
-            // border: 1px solid $primary;
+            border: 1px solid $primary;
         }
     }
 }
