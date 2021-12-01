@@ -1512,6 +1512,13 @@ nav.fc-nav ul li a.getintouch {
   margin-bottom: 5rem;
 }
 
+@media screen and (max-width: 768px) {
+  .about-team {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+
 .about-team .team-img {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1574,6 +1581,672 @@ nav.fc-nav ul li a.getintouch {
 .about-team .second-one .first-parra {
   font-size: 25px;
   font-weight: bold;
+}
+
+.call-to-action {
+  background-color: #CFAF5C;
+  padding: 5rem 0;
+}
+
+@media screen and (max-width: 768px) {
+  .call-to-action {
+    padding: 2rem;
+  }
+}
+
+.call-to-action .left {
+  color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+  .call-to-action .left {
+    text-align: center;
+  }
+}
+
+.call-to-action .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.call-to-action .right .call-to-btn {
+  color: #CFAF5C;
+  letter-spacing: 2px;
+  font-size: 12px;
+  padding: 8px 55px;
+  border: none;
+  border-radius: 3px;
+  border: 1px solid #CFAF5C;
+}
+
+.call-to-action .right .call-to-btn:hover {
+  color: #fff;
+  background-color: #CFAF5C;
+  border: 1px solid #fff;
+}
+
+.faq {
+  margin-top: 10rem;
+  overflow-x: hidden;
+}
+
+@media screen and (max-width: 768px) {
+  .faq {
+    margin-top: 3rem;
+  }
+}
+
+.faq .upper-headings {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.faq .upper-headings .parra-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.faq .upper-headings p {
+  padding: 0 2rem;
+  max-width: 750px;
+}
+
+.faq .questions {
+  background: #FFFFFF;
+}
+
+.faq .questions .accordion {
+  overflow: hidden;
+}
+
+.faq .questions .accordion .accordionLabel, .faq .questions .accordion .accordionContent {
+  padding: 10px 10px;
+  overflow: hidden;
+  border-radius: 5px;
+  border: 1px solid #dddddd;
+}
+
+.faq .questions .accordion .accordionLabel {
+  display: block;
+  cursor: pointer;
+  position: relative;
+  font-style: normal;
+  font-weight: normal;
+  padding: 1rem;
+  line-height: 26px;
+  background: white;
+  color: #000000;
+}
+
+.faq .questions .accordion .accordionLabel {
+  font-size: 14px;
+}
+
+@media screen and (min-width: 320px) {
+  .faq .questions .accordion .accordionLabel {
+    font-size: calc(14px + 4 * ((100vw - 320px) / 850));
+  }
+}
+
+@media screen and (min-width: 1170px) {
+  .faq .questions .accordion .accordionLabel {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .faq .questions .accordion .accordionLabel {
+    padding-right: 3rem;
+  }
+}
+
+.faq .questions .accordion .accordionLabel:hover {
+  background: rgba(0, 0, 0, 0.01);
+  border-radius: 5px;
+}
+
+.faq .questions .accordion .accordionLabel::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  height: 30px;
+  width: 30px;
+  background-image: url(../archean-images/plus.svg);
+  background-color: #F5F7F6;
+  border-radius: 50%;
+  background-size: auto;
+  background-position: center;
+  color: #9C7545;
+  background-repeat: no-repeat;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.faq .questions .accordion .accordionContent {
+  overflow: hidden;
+  -webkit-transition: all .25s ease;
+  transition: all .25s ease;
+  background: white;
+  display: none;
+}
+
+.faq .questions .accordion .accordionInput {
+  display: none;
+}
+
+.faq .questions .accordion .accordionInput:checked ~ .accordionContent {
+  overflow: hidden;
+  display: block;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.faq .questions .accordion .accordionInput:checked ~ .accordionLabel::after {
+  content: '';
+  height: 30px;
+  width: 30px;
+  top: 26%;
+  -webkit-transform: rotateZ(45deg);
+          transform: rotateZ(45deg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.faq .questions .accordion .accordionInput:checked ~ .accordionLabel {
+  background-color: #CFAF5C;
+  color: #fff;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.faq .questions .heading {
+  text-align: center;
+}
+
+.faq .questions .heading h3 {
+  font-style: normal;
+  font-weight: bold;
+  line-height: 58px;
+  color: #000619;
+}
+
+.faq .questions .heading h3 {
+  font-size: 24px;
+}
+
+@media screen and (min-width: 320px) {
+  .faq .questions .heading h3 {
+    font-size: calc(24px + 24 * ((100vw - 320px) / 850));
+  }
+}
+
+@media screen and (min-width: 1170px) {
+  .faq .questions .heading h3 {
+    font-size: 48px;
+  }
+}
+
+.faq .questions .heading p {
+  max-width: 950px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 26px;
+  /* or 162% */
+  margin-right: auto;
+  margin-left: auto;
+  color: #727272;
+}
+
+.faq .questions .heading p {
+  font-size: 12px;
+}
+
+@media screen and (min-width: 320px) {
+  .faq .questions .heading p {
+    font-size: calc(12px + 4 * ((100vw - 320px) / 850));
+  }
+}
+
+@media screen and (min-width: 1170px) {
+  .faq .questions .heading p {
+    font-size: 16px;
+  }
+}
+
+.our-services {
+  background-image: url(../archean-images/mining-evaluation.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 4rem;
+  padding-top: 8rem;
+}
+
+@media screen and (max-width: 768px) {
+  .our-services {
+    margin-top: 2rem;
+    padding-top: 4rem;
+  }
+}
+
+.our-services .services-para {
+  max-width: 680px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.our-services .discovery-and-mining {
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+  padding: 6rem 5rem;
+}
+
+@media screen and (max-width: 767px) {
+  .our-services .discovery-and-mining {
+    padding: 2rem 1.5rem;
+  }
+}
+
+.our-services .discovery-and-mining .mining-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+  .our-services .discovery-and-mining .mining-btn {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.our-services .discovery-and-mining .mining-btn.active {
+  background-color: #CFAF5C;
+  color: #fff;
+}
+
+.our-services .discovery-and-mining .mining-btn button {
+  border: none;
+  background: #F7F7F7;
+  font-size: 12px;
+  letter-spacing: 1px;
+  padding: 15px 65px;
+  border-radius: 5px;
+  font-weight: 500;
+  margin: 0 25px;
+}
+
+@media screen and (max-width: 767px) {
+  .our-services .discovery-and-mining .mining-btn button {
+    margin: 10px 25px;
+  }
+}
+
+.our-services .discovery-and-mining .mining-btn button:hover {
+  background: #D0B15F;
+  color: #fff;
+}
+
+.our-services .discovery-and-mining .nav-tabs {
+  border: none;
+  margin-bottom: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .our-services .discovery-and-mining .nav-tabs {
+    margin-bottom: 2rem;
+  }
+}
+
+.our-services .discovery-and-mining .tab-content {
+  margin-top: 5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .our-services .discovery-and-mining .tab-content {
+    margin-top: 2rem;
+  }
+}
+
+.our-services .discovery-and-mining .tab-content .tab-pane img {
+  border-radius: 5px;
+}
+
+.our-services .discovery-and-mining .tab-content .tab-pane .tab-text {
+  padding: 6rem 0;
+}
+
+@media screen and (max-width: 767px) {
+  .our-services .discovery-and-mining .tab-content .tab-pane .tab-text {
+    padding: 0rem 0;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .our-services .discovery-and-mining .tab-content .tab-pane .tab-text {
+    padding: 1rem 0;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .our-services .discovery-and-mining .tab-content .tab-pane .tab-text {
+    padding: 2rem 0;
+  }
+}
+
+.our-services .discovery-and-mining .tab-content .tab-pane h6 {
+  text-align: center;
+}
+
+@media screen and (min-width: 767px) {
+  .our-services .discovery-and-mining .tab-content .tab-pane h6 {
+    text-align: left !important;
+  }
+}
+
+.our-services .discovery-and-mining .tab-content .tab-pane h2 {
+  text-align: center;
+}
+
+@media screen and (min-width: 767px) {
+  .our-services .discovery-and-mining .tab-content .tab-pane h2 {
+    text-align: left !important;
+  }
+}
+
+.our-services .discovery-and-mining .tab-content .tab-pane p {
+  text-align: center;
+}
+
+@media screen and (min-width: 767px) {
+  .our-services .discovery-and-mining .tab-content .tab-pane p {
+    text-align: left !important;
+  }
+}
+
+.our-services .discovery-and-mining .mining-btn {
+  border: none;
+  background: #F7F7F7;
+  font-size: 12px;
+  letter-spacing: 1px;
+  padding: 15px 65px;
+  border-radius: 5px;
+  font-weight: 500;
+  margin: 0 25px;
+}
+
+@media screen and (max-width: 767px) {
+  .our-services .discovery-and-mining .mining-btn {
+    margin: 10px 25px;
+  }
+}
+
+.our-services .discovery-and-mining .mining-btn:hover {
+  background: #D0B15F;
+  color: #fff;
+}
+
+.resources {
+  margin-top: 5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .resources {
+    margin-top: 2rem;
+  }
+}
+
+.resources .subheading-h2 {
+  margin-top: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .resources .subheading-h2 {
+    margin-top: 1rem;
+  }
+}
+
+.resources .resource-btn-last {
+  background: #CFAF5C !important;
+  text-decoration: none;
+  color: #fff;
+  padding: 1rem 6rem;
+  border-radius: 3px;
+  margin-top: 2rem;
+}
+
+.resources .resource-btn-last:hover {
+  background: #fff !important;
+  text-decoration: none;
+  color: #CFAF5C;
+  border: 1px solid #CFAF5C;
+}
+
+.brands {
+  background-image: url(../archean-images/sparkles.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 8rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 5rem;
+  z-index: 2;
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  .brands {
+    padding: 3rem 0;
+    margin-top: 2rem;
+  }
+}
+
+.brands.has-overlay::after {
+  content: "";
+  display: block;
+  position: absolute;
+  padding: 100px 0;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+
+.brands .brand-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.brands .brand-text {
+  max-width: 480px;
+  text-align: center;
+  position: relative;
+}
+
+.brands .brand-btn-last {
+  background: #fff !important;
+  text-decoration: none;
+  color: #CFAF5C;
+  padding: 1rem 3rem;
+  border-radius: 3px;
+}
+
+.brands .brand-btn-last:hover {
+  background: #CFAF5C !important;
+  text-decoration: none;
+  color: #fff;
+}
+
+.news-letter {
+  padding: 4rem 0;
+  background: #F2F2F2;
+}
+
+@media screen and (max-width: 768px) {
+  .news-letter {
+    padding: 2rem 0;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .news-letter h2 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .news-letter .news-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .news-letter .news-form form div {
+    display: block;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.news-letter .news-form form div input {
+  background: #fff;
+  border: 2px solid #EAEAEA;
+  padding: .8rem 1rem;
+  width: 250px;
+}
+
+@media screen and (max-width: 553px) {
+  .news-letter .news-form form div input {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.news-letter .news-form form div input::-webkit-input-placeholder {
+  color: #BABABA;
+}
+
+.news-letter .news-form form div input:-ms-input-placeholder {
+  color: #BABABA;
+}
+
+.news-letter .news-form form div input::-ms-input-placeholder {
+  color: #BABABA;
+}
+
+.news-letter .news-form form div input::placeholder {
+  color: #BABABA;
+}
+
+.news-letter .news-form form div input:focus {
+  outline: none;
+}
+
+.news-letter .news-form form div .news-btn {
+  background: #CFAF5C !important;
+  text-decoration: none;
+  color: #fff;
+  padding: .8rem 3rem;
+  border-radius: 3px;
+  border: none;
+  margin-left: 5px;
+}
+
+.news-letter .news-form form div .news-btn:hover {
+  background: #fff !important;
+  text-decoration: none;
+  color: #CFAF5C;
+  border: 1px solid #CFAF5C;
+}
+
+@media screen and (max-width: 1199px) {
+  .news-letter .news-form form div .news-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .merged {
@@ -1918,73 +2591,6 @@ nav.fc-nav ul li a.getintouch {
   padding-right: 25px;
 }
 
-.call-to-action {
-  background-color: #CFAF5C;
-  padding: 5rem 0;
-}
-
-.call-to-action .left {
-  color: #fff;
-}
-
-@media screen and (max-width: 767px) {
-  .call-to-action .left {
-    text-align: center;
-  }
-}
-
-.call-to-action .right {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.call-to-action .right .call-to-btn {
-  color: #CFAF5C;
-  letter-spacing: 2px;
-  font-size: 12px;
-  padding: 8px 55px;
-  border: none;
-  border-radius: 3px;
-  border: 1px solid #CFAF5C;
-}
-
-.call-to-action .right .call-to-btn:hover {
-  color: #fff;
-  background-color: #CFAF5C;
-  border: 1px solid #fff;
-}
-
-.resources {
-  margin-top: 5rem;
-}
-
-.resources .subheading-h2 {
-  margin-top: 1.5rem;
-}
-
-.resources .resource-btn-last {
-  background: #CFAF5C !important;
-  text-decoration: none;
-  color: #fff;
-  padding: 1rem 6rem;
-  border-radius: 3px;
-  margin-top: 2rem;
-}
-
-.resources .resource-btn-last:hover {
-  background: #fff !important;
-  text-decoration: none;
-  color: #CFAF5C;
-  border: 1px solid #CFAF5C;
-}
-
 .service-card {
   background: #F7F7F7;
   border-radius: 5px;
@@ -2146,549 +2752,6 @@ nav.fc-nav ul li a.getintouch {
 
 .key-industries .social-post-slider-cnt {
   margin-top: 5rem;
-}
-
-.our-services {
-  background-image: url(../archean-images/mining-evaluation.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin-top: 4rem;
-  padding-top: 8rem;
-}
-
-.our-services .services-para {
-  max-width: 680px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.our-services .discovery-and-mining {
-  background: #FFFFFF;
-  -webkit-box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
-  padding: 6rem 5rem;
-}
-
-@media screen and (max-width: 767px) {
-  .our-services .discovery-and-mining {
-    padding: 3rem 2rem;
-  }
-}
-
-.our-services .discovery-and-mining .mining-btn {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-@media screen and (max-width: 767px) {
-  .our-services .discovery-and-mining .mining-btn {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-}
-
-.our-services .discovery-and-mining .mining-btn.active {
-  background-color: #CFAF5C;
-  color: #fff;
-}
-
-.our-services .discovery-and-mining .mining-btn button {
-  border: none;
-  background: #F7F7F7;
-  font-size: 12px;
-  letter-spacing: 1px;
-  padding: 15px 65px;
-  border-radius: 5px;
-  font-weight: 500;
-  margin: 0 25px;
-}
-
-@media screen and (max-width: 767px) {
-  .our-services .discovery-and-mining .mining-btn button {
-    margin: 10px 25px;
-  }
-}
-
-.our-services .discovery-and-mining .mining-btn button:hover {
-  background: #D0B15F;
-  color: #fff;
-}
-
-.our-services .discovery-and-mining .nav-tabs {
-  border: none;
-  margin-bottom: 4rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.our-services .discovery-and-mining .tab-content {
-  margin-top: 5rem;
-}
-
-.our-services .discovery-and-mining .tab-content .tab-pane img {
-  border-radius: 5px;
-}
-
-.our-services .discovery-and-mining .tab-content .tab-pane .tab-text {
-  padding: 6rem 0;
-}
-
-@media screen and (max-width: 767px) {
-  .our-services .discovery-and-mining .tab-content .tab-pane .tab-text {
-    padding: 0rem 0;
-  }
-}
-
-@media screen and (max-width: 991px) {
-  .our-services .discovery-and-mining .tab-content .tab-pane .tab-text {
-    padding: 1rem 0;
-  }
-}
-
-@media screen and (max-width: 1400px) {
-  .our-services .discovery-and-mining .tab-content .tab-pane .tab-text {
-    padding: 2rem 0;
-  }
-}
-
-.our-services .discovery-and-mining .tab-content .tab-pane h6 {
-  text-align: center;
-}
-
-@media screen and (min-width: 767px) {
-  .our-services .discovery-and-mining .tab-content .tab-pane h6 {
-    text-align: left !important;
-  }
-}
-
-.our-services .discovery-and-mining .tab-content .tab-pane h2 {
-  text-align: center;
-}
-
-@media screen and (min-width: 767px) {
-  .our-services .discovery-and-mining .tab-content .tab-pane h2 {
-    text-align: left !important;
-  }
-}
-
-.our-services .discovery-and-mining .tab-content .tab-pane p {
-  text-align: center;
-}
-
-@media screen and (min-width: 767px) {
-  .our-services .discovery-and-mining .tab-content .tab-pane p {
-    text-align: left !important;
-  }
-}
-
-.our-services .discovery-and-mining .mining-btn {
-  border: none;
-  background: #F7F7F7;
-  font-size: 12px;
-  letter-spacing: 1px;
-  padding: 15px 65px;
-  border-radius: 5px;
-  font-weight: 500;
-  margin: 0 25px;
-}
-
-@media screen and (max-width: 767px) {
-  .our-services .discovery-and-mining .mining-btn {
-    margin: 10px 25px;
-  }
-}
-
-.our-services .discovery-and-mining .mining-btn:hover {
-  background: #D0B15F;
-  color: #fff;
-}
-
-.faq {
-  margin-top: 10rem;
-  overflow-x: hidden;
-}
-
-.faq .upper-headings {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.faq .upper-headings .parra-text {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.faq .upper-headings p {
-  padding: 0 2rem;
-  max-width: 750px;
-}
-
-.faq .questions {
-  background: #FFFFFF;
-}
-
-.faq .questions .accordion {
-  overflow: hidden;
-}
-
-.faq .questions .accordion .accordionLabel, .faq .questions .accordion .accordionContent {
-  padding: 10px 10px;
-  overflow: hidden;
-  border-radius: 5px;
-  border: 1px solid #dddddd;
-}
-
-.faq .questions .accordion .accordionLabel {
-  display: block;
-  cursor: pointer;
-  position: relative;
-  font-style: normal;
-  font-weight: normal;
-  padding: 1rem;
-  line-height: 26px;
-  background: white;
-  color: #000000;
-}
-
-.faq .questions .accordion .accordionLabel {
-  font-size: 14px;
-}
-
-@media screen and (min-width: 320px) {
-  .faq .questions .accordion .accordionLabel {
-    font-size: calc(14px + 4 * ((100vw - 320px) / 850));
-  }
-}
-
-@media screen and (min-width: 1170px) {
-  .faq .questions .accordion .accordionLabel {
-    font-size: 18px;
-  }
-}
-
-@media screen and (max-width: 420px) {
-  .faq .questions .accordion .accordionLabel {
-    padding-right: 3rem;
-  }
-}
-
-.faq .questions .accordion .accordionLabel:hover {
-  background: rgba(0, 0, 0, 0.01);
-  border-radius: 5px;
-}
-
-.faq .questions .accordion .accordionLabel::after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  right: 20px;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-  height: 30px;
-  width: 30px;
-  background-image: url(../archean-images/plus.svg);
-  background-color: #F5F7F6;
-  border-radius: 50%;
-  background-size: auto;
-  background-position: center;
-  color: #9C7545;
-  background-repeat: no-repeat;
-  -webkit-transition: all .5s;
-  transition: all .5s;
-}
-
-.faq .questions .accordion .accordionContent {
-  overflow: hidden;
-  -webkit-transition: all .25s ease;
-  transition: all .25s ease;
-  background: white;
-  display: none;
-}
-
-.faq .questions .accordion .accordionInput {
-  display: none;
-}
-
-.faq .questions .accordion .accordionInput:checked ~ .accordionContent {
-  overflow: hidden;
-  display: block;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-}
-
-.faq .questions .accordion .accordionInput:checked ~ .accordionLabel::after {
-  content: '';
-  height: 30px;
-  width: 30px;
-  top: 26%;
-  -webkit-transform: rotateZ(45deg);
-          transform: rotateZ(45deg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: #fff;
-  border-radius: 50%;
-}
-
-.faq .questions .accordion .accordionInput:checked ~ .accordionLabel {
-  background-color: #CFAF5C;
-  color: #fff;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
-}
-
-.faq .questions .heading {
-  text-align: center;
-}
-
-.faq .questions .heading h3 {
-  font-style: normal;
-  font-weight: bold;
-  line-height: 58px;
-  color: #000619;
-}
-
-.faq .questions .heading h3 {
-  font-size: 24px;
-}
-
-@media screen and (min-width: 320px) {
-  .faq .questions .heading h3 {
-    font-size: calc(24px + 24 * ((100vw - 320px) / 850));
-  }
-}
-
-@media screen and (min-width: 1170px) {
-  .faq .questions .heading h3 {
-    font-size: 48px;
-  }
-}
-
-.faq .questions .heading p {
-  max-width: 950px;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 26px;
-  /* or 162% */
-  margin-right: auto;
-  margin-left: auto;
-  color: #727272;
-}
-
-.faq .questions .heading p {
-  font-size: 12px;
-}
-
-@media screen and (min-width: 320px) {
-  .faq .questions .heading p {
-    font-size: calc(12px + 4 * ((100vw - 320px) / 850));
-  }
-}
-
-@media screen and (min-width: 1170px) {
-  .faq .questions .heading p {
-    font-size: 16px;
-  }
-}
-
-.brands {
-  background-image: url(../archean-images/sparkles.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 8rem 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-top: 5rem;
-  z-index: 2;
-  position: relative;
-}
-
-.brands.has-overlay::after {
-  content: "";
-  display: block;
-  position: absolute;
-  padding: 100px 0;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: -1;
-}
-
-.brands .brand-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.brands .brand-text {
-  max-width: 480px;
-  text-align: center;
-  position: relative;
-}
-
-.brands .brand-btn-last {
-  background: #fff !important;
-  text-decoration: none;
-  color: #CFAF5C;
-  padding: 1rem 3rem;
-  border-radius: 3px;
-}
-
-.brands .brand-btn-last:hover {
-  background: #CFAF5C !important;
-  text-decoration: none;
-  color: #fff;
-}
-
-.news-letter {
-  padding: 4rem 0;
-  background: #F2F2F2;
-}
-
-@media screen and (max-width: 1199px) {
-  .news-letter h2 {
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-@media screen and (max-width: 1199px) {
-  .news-letter .news-form {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-}
-
-@media screen and (max-width: 1199px) {
-  .news-letter .news-form form div {
-    display: block;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin-top: 1rem;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-.news-letter .news-form form div input {
-  background: #fff;
-  border: 2px solid #EAEAEA;
-  padding: .8rem 1rem;
-  width: 250px;
-}
-
-@media screen and (max-width: 553px) {
-  .news-letter .news-form form div input {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-.news-letter .news-form form div input::-webkit-input-placeholder {
-  color: #BABABA;
-}
-
-.news-letter .news-form form div input:-ms-input-placeholder {
-  color: #BABABA;
-}
-
-.news-letter .news-form form div input::-ms-input-placeholder {
-  color: #BABABA;
-}
-
-.news-letter .news-form form div input::placeholder {
-  color: #BABABA;
-}
-
-.news-letter .news-form form div input:focus {
-  outline: none;
-}
-
-.news-letter .news-form form div .news-btn {
-  background: #CFAF5C !important;
-  text-decoration: none;
-  color: #fff;
-  padding: .8rem 3rem;
-  border-radius: 3px;
-  border: none;
-  margin-left: 5px;
-}
-
-.news-letter .news-form form div .news-btn:hover {
-  background: #fff !important;
-  text-decoration: none;
-  color: #CFAF5C;
-  border: 1px solid #CFAF5C;
-}
-
-@media screen and (max-width: 1199px) {
-  .news-letter .news-form form div .news-btn {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin-top: 1rem;
-    margin-left: auto;
-    margin-right: auto;
-  }
 }
 
 @media screen and (max-width: 767px) {
