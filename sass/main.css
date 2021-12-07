@@ -1332,7 +1332,7 @@ nav.fc-nav ul li a.getintouch {
 
 @media screen and (max-width: 768px) {
   .resources-top {
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
 }
 
@@ -1542,6 +1542,7 @@ nav.fc-nav ul li a.getintouch {
   .about-team .team-tect-sec {
     padding-left: 0;
     padding-top: 2rem;
+    padding-bottom: 0rem;
     text-align: center;
   }
 }
@@ -1633,7 +1634,8 @@ nav.fc-nav ul li a.getintouch {
 }
 
 .faq {
-  margin-top: 10rem;
+  margin-top: 8rem;
+  margin-bottom: 2rem;
   overflow-x: hidden;
 }
 
@@ -2077,7 +2079,7 @@ nav.fc-nav ul li a.getintouch {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 8rem 0;
+  padding: 8rem 0 !important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2094,7 +2096,7 @@ nav.fc-nav ul li a.getintouch {
 
 @media screen and (max-width: 768px) {
   .brands {
-    padding: 3rem 0;
+    padding: 3rem 0 !important;
     margin-top: 2rem;
   }
 }
@@ -3166,10 +3168,6 @@ footer .copyright .footer-social li a svg {
   color: #CFAF5C;
 }
 
-.key-industries {
-  margin-top: 5rem;
-}
-
 .key-industries .social-post-slider-cnt {
   margin-top: 5rem;
 }
@@ -3638,6 +3636,16 @@ body h6 {
 @media screen and (max-width: 992px) {
   .footer-link-padding {
     padding-top: 0;
+  }
+}
+
+.key-industries .social-post-slider-cnt {
+  margin-top: 5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .key-industries .social-post-slider-cnt {
+    margin-top: 0;
   }
 }
 /*# sourceMappingURL=main.css.map */
