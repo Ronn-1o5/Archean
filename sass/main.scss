@@ -689,7 +689,10 @@ nav.fc-nav{
     // background-position: center;
     // background-repeat: no-repeat;
     min-height: 80vh;
-    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // align-items: flex-start;
     position: relative;
     color: #fff;
     padding: 3rem 0;
@@ -889,7 +892,7 @@ nav.fc-nav{
 
     .how-it-works{
         // display: flex;
-        margin-top: 10rem !important; //14
+        // margin-top: 10rem !important; //14
 
         .hero-text-upperheading{
             font-size: 12px !important;
@@ -2914,6 +2917,25 @@ body{
     border-right: 2px solid $primary;
     border-bottom: 2px solid $primary;
     border-radius: 0 0 8px 8px !important;
+}
+
+.cta__button{
+ a{
+    text-decoration: none;
+    background-color: #D0B15F;
+    padding: 10px 40px;
+    color: #fff !important;
+    border-radius: 3px;
+    border: 1px solid #D0B15F;
+
+    &:hover{
+        background-color: #ffffff;
+        padding: 10px 40px;
+        color: #D0B15F !important;
+        border-radius: 3px;
+        border: 1px solid #D0B15F;
+    }
+  }
 }
 
 @import"style";

@@ -796,9 +796,15 @@ nav.fc-nav ul li a.getintouch {
 
 .hero {
   min-height: 80vh;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   position: relative;
   color: #fff;
   padding: 3rem 0;
@@ -1094,10 +1100,6 @@ nav.fc-nav ul li a.getintouch {
 .hero .avalible-for-purchase .right-side .right button:hover {
   background-color: #fff;
   color: #CFAF5C;
-}
-
-.hero .how-it-works {
-  margin-top: 10rem !important;
 }
 
 .hero .how-it-works .hero-text-upperheading {
@@ -3855,5 +3857,22 @@ body h6 {
   border-right: 2px solid #CFAF5C;
   border-bottom: 2px solid #CFAF5C;
   border-radius: 0 0 8px 8px !important;
+}
+
+.cta__button a {
+  text-decoration: none;
+  background-color: #D0B15F;
+  padding: 10px 40px;
+  color: #fff !important;
+  border-radius: 3px;
+  border: 1px solid #D0B15F;
+}
+
+.cta__button a:hover {
+  background-color: #ffffff;
+  padding: 10px 40px;
+  color: #D0B15F !important;
+  border-radius: 3px;
+  border: 1px solid #D0B15F;
 }
 /*# sourceMappingURL=main.css.map */
