@@ -1757,13 +1757,14 @@ nav.fc-nav ul li a.getintouch {
 
 .faq {
   margin-top: 8rem;
-  margin-bottom: 2rem;
+  margin-bottom: 6rem;
   overflow-x: hidden;
 }
 
 @media screen and (max-width: 768px) {
   .faq {
     margin-top: 3rem;
+    margin-bottom: 2rem;
   }
 }
 
