@@ -2793,6 +2793,17 @@ footer .copyright {
   padding: 20px 0;
 }
 
+@media screen and (max-width: 768px) {
+  footer .copyright ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 footer .copyright .footer-social {
   display: -webkit-box;
   display: -ms-flexbox;

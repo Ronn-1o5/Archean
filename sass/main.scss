@@ -2211,6 +2211,12 @@ footer{
     .copyright{
         background-color: $primary !important;
         padding: 20px 0;
+        ul{
+            @media screen and (max-width: 768px){
+                display: flex;
+                justify-content: center;
+            }
+        }
         .footer-social{
             @include flex();
             @media screen and (min-width: 768px)
