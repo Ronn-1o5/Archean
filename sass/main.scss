@@ -2867,26 +2867,108 @@ footer{
     }
 }
 
+.btn {
+    font-family: $Inter !important;
+    border-radius: 3px;
+}
+
+.modal-header h5{
+    font-family: $Inter !important;
+    margin-left: auto;
+    font-size: 28px;
+}
+
+.modal-header{
+    border: none !important;
+}
+
+.modal-footer{
+    display: flex !important;
+    justify-content: center !important;
+    border-top: none !important;
+}
+
+.modal_parra{
+    margin-bottom: 0 !important;
+    margin-top: 15px !important;
+}
+
+.modal-body{
+    button{
+        padding: 13px 20px !important;
+        background-color: $primary;
+        color: $white;
+        border: none;
+        border-radius: 3px;
+        font-family: $Inter !important;
+        border: 1px solid $primary;
+
+        &:hover{
+            background: $white !important;
+            text-decoration: none;
+            color: $primary;
+        }
+    }
+
+    .bt{
+        display: flex;
+        justify-content: center;
+    }
+
+    .brand-btn-last{
+        margin-top: 15px;
+        background: $primary !important;
+        text-decoration: none;
+        color: $white;
+        padding: 1rem 3rem;
+        border-radius: 3px;
+        border: 1px solid $primary;
+
+        &:hover{
+            background: $white !important;
+            text-decoration: none;
+            color: $primary;
+        }
+    }
+}
+
+.modal-footer{
+    .brand-btn-last{
+        background: $primary !important;
+        text-decoration: none;
+        color: $white;
+        padding: 1rem 3rem;
+        border-radius: 3px;
+        border: 1px solid $primary;
+
+        &:hover{
+            background: $white !important;
+            text-decoration: none;
+            color: $primary;
+        }
+    }
+}
+
 body{
-    font-family: $Inter;
+    font-family: $Inter !important;
 
     h1{
-        font-family: 'Brandon';
+        font-family: 'Brandon' !important;
     }
     h2{
-        font-family: 'Brandon';
+        font-family: 'Brandon' !important;
     }
     h3{
-        font-family: 'Brandon';
+        font-family: 'Brandon' !important;
     }
     h4{
-        font-family: 'Brandon';
+        font-family: 'Brandon' !important;
     }
     h5{
-        font-family: 'Brandon';
+        font-family: 'Brandon' !important;
     }
     h6{
-        font-family: 'Brandon';
+        font-family: 'Brandon' !important;
         letter-spacing: 2px;
     }
 }
@@ -2896,7 +2978,7 @@ body{
     align-items: center;
     justify-content: center;
     button{
-        width: 359px;
+        width: 180px;
         border: 1px solid $primary !important;
         color: #fff;
         background: linear-gradient(90deg, #D0B15F, #BD993C);

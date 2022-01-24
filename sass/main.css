@@ -3786,32 +3786,118 @@ footer .copyright .footer-social li a svg {
   }
 }
 
+.btn {
+  font-family: "Inter", sans-serif !important;
+  border-radius: 3px;
+}
+
+.modal-header h5 {
+  font-family: "Inter", sans-serif !important;
+  margin-left: auto;
+  font-size: 28px;
+}
+
+.modal-header {
+  border: none !important;
+}
+
+.modal-footer {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+  border-top: none !important;
+}
+
+.modal_parra {
+  margin-bottom: 0 !important;
+  margin-top: 15px !important;
+}
+
+.modal-body button {
+  padding: 13px 20px !important;
+  background-color: #CFAF5C;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  font-family: "Inter", sans-serif !important;
+  border: 1px solid #CFAF5C;
+}
+
+.modal-body button:hover {
+  background: #fff !important;
+  text-decoration: none;
+  color: #CFAF5C;
+}
+
+.modal-body .bt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.modal-body .brand-btn-last {
+  margin-top: 15px;
+  background: #CFAF5C !important;
+  text-decoration: none;
+  color: #fff;
+  padding: 1rem 3rem;
+  border-radius: 3px;
+  border: 1px solid #CFAF5C;
+}
+
+.modal-body .brand-btn-last:hover {
+  background: #fff !important;
+  text-decoration: none;
+  color: #CFAF5C;
+}
+
+.modal-footer .brand-btn-last {
+  background: #CFAF5C !important;
+  text-decoration: none;
+  color: #fff;
+  padding: 1rem 3rem;
+  border-radius: 3px;
+  border: 1px solid #CFAF5C;
+}
+
+.modal-footer .brand-btn-last:hover {
+  background: #fff !important;
+  text-decoration: none;
+  color: #CFAF5C;
+}
+
 body {
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", sans-serif !important;
 }
 
 body h1 {
-  font-family: 'Brandon';
+  font-family: 'Brandon' !important;
 }
 
 body h2 {
-  font-family: 'Brandon';
+  font-family: 'Brandon' !important;
 }
 
 body h3 {
-  font-family: 'Brandon';
+  font-family: 'Brandon' !important;
 }
 
 body h4 {
-  font-family: 'Brandon';
+  font-family: 'Brandon' !important;
 }
 
 body h5 {
-  font-family: 'Brandon';
+  font-family: 'Brandon' !important;
 }
 
 body h6 {
-  font-family: 'Brandon';
+  font-family: 'Brandon' !important;
   letter-spacing: 2px;
 }
 
@@ -3828,7 +3914,7 @@ body h6 {
 }
 
 .cta__button button {
-  width: 359px;
+  width: 180px;
   border: 1px solid #CFAF5C !important;
   color: #fff;
   background: -webkit-gradient(linear, left top, right top, from(#D0B15F), to(#BD993C));
