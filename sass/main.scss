@@ -108,6 +108,7 @@ body{
 
     nav{
 
+        
         .getintouch{
             background: rgb(158, 138, 70);
             padding: 10px 10px;
@@ -2947,6 +2948,14 @@ footer{
             color: $primary;
         }
     }
+}
+
+.nav__mobile_btn{
+    background-color: $primary;
+    color: $white;
+    border: 1px solid $primary;
+    padding: 10px 12px;
+    border-radius: 3px;
 }
 
 body{

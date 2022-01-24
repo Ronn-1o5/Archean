@@ -3872,6 +3872,14 @@ footer .copyright .footer-social li a svg {
   color: #CFAF5C;
 }
 
+.nav__mobile_btn {
+  background-color: #CFAF5C;
+  color: #fff;
+  border: 1px solid #CFAF5C;
+  padding: 10px 12px;
+  border-radius: 3px;
+}
+
 body {
   font-family: "Inter", sans-serif !important;
 }
