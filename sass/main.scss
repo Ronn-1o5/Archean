@@ -2956,6 +2956,12 @@ footer{
     border: 1px solid $primary;
     padding: 10px 12px;
     border-radius: 3px;
+
+    display: none;
+
+    @media screen and (max-width: 991px){
+        display: block;
+    }
 }
 
 body{

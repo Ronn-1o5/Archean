@@ -3878,6 +3878,13 @@ footer .copyright .footer-social li a svg {
   border: 1px solid #CFAF5C;
   padding: 10px 12px;
   border-radius: 3px;
+  display: none;
+}
+
+@media screen and (max-width: 991px) {
+  .nav__mobile_btn {
+    display: block;
+  }
 }
 
 body {
