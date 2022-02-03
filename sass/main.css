@@ -1348,6 +1348,10 @@ nav.fc-nav ul li a.getintouch {
   }
 }
 
+.introduction-section .right {
+  padding-top: 2.5rem;
+}
+
 .introduction-section .right img {
   border-radius: 8px;
 }
