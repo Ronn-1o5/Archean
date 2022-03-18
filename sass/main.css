@@ -1827,7 +1827,6 @@ nav.fc-nav ul li a.getintouch {
   padding-top: 8rem;
   padding-bottom: 6rem;
   overflow-x: hidden;
-  background: #1D1D1D;
 }
 
 @media screen and (max-width: 768px) {
@@ -2378,10 +2377,6 @@ nav.fc-nav ul li a.getintouch {
   .our-services .questions .heading p {
     font-size: 16px;
   }
-}
-
-.resources {
-  background: #1D1D1D;
 }
 
 .resources .subheading-h2 {
