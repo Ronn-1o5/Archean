@@ -3447,8 +3447,9 @@ footer{
     background-color: $primary;
     color: $white;
     border: 1px solid $primary;
-    padding: 10px 12px;
+    padding: 10px;
     border-radius: 3px;
+    font-size: 14px !important;
 
     display: none;
 
@@ -3575,7 +3576,48 @@ body{
 
 
 .bg__none{
-    background: #000;
+    background: url(../Background/Screen_backgr_03.jpg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .how-it-works__hero{
+        height: 45vh;
+        display: flex;
+        align-items: end;
+
+        .how-it-works{
+            div{
+                padding-bottom: 2rem
+            }
+        }
+    }
+}
+
+.bg__how_its_work{
+    background: url(../Background/Screen_backgr_10.jpg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .how-it-works__hero{
+        height: 45vh;
+        display: flex;
+        align-items: end;
+
+        .how-it-works{
+            div{
+                padding-bottom: 2rem
+            }
+        }
+    }
+}
+
+.bg__contact{
+    background: url(../Background/Screen_backgr_09.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
     .how-it-works__hero{
         height: 45vh;
@@ -3591,7 +3633,7 @@ body{
 }
 
 .bg__news{
-    background: url(../archean-images/news__bg.png);
+    background: url(../Background/Screen_backgr_coin.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -3610,8 +3652,8 @@ body{
 }
 
 .privacy__news{
-    background: url(../archean-images/Privacy__policy__terms.png);
-    background-position: center;
+    background: url(../Background/Screen_backgr_03.jpg);
+    background-position: bottom center;
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -3675,8 +3717,8 @@ body{
 }
 
 .FAQs__none{
-    background: url(../archean-images/FAQs__bg.png);
-    background-position: center;
+    background: url(../Background/Screen_backgr_02.jpg);
+    // background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 

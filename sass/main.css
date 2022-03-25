@@ -4458,8 +4458,9 @@ footer .copyright .footer-social li a svg {
   background-color: #CFAF5C;
   color: #fff;
   border: 1px solid #CFAF5C;
-  padding: 10px 12px;
+  padding: 10px;
   border-radius: 3px;
+  font-size: 14px !important;
   display: none;
 }
 
@@ -4609,7 +4610,10 @@ body h6 {
 }
 
 .bg__none {
-  background: #000;
+  background: url(../Background/Screen_backgr_03.jpg);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .bg__none .how-it-works__hero {
@@ -4626,8 +4630,50 @@ body h6 {
   padding-bottom: 2rem;
 }
 
+.bg__how_its_work {
+  background: url(../Background/Screen_backgr_10.jpg);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg__how_its_work .how-it-works__hero {
+  height: 45vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+
+.bg__how_its_work .how-it-works__hero .how-it-works div {
+  padding-bottom: 2rem;
+}
+
+.bg__contact {
+  background: url(../Background/Screen_backgr_09.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg__contact .how-it-works__hero {
+  height: 45vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+
+.bg__contact .how-it-works__hero .how-it-works div {
+  padding-bottom: 2rem;
+}
+
 .bg__news {
-  background: url(../archean-images/news__bg.png);
+  background: url(../Background/Screen_backgr_coin.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -4648,8 +4694,8 @@ body h6 {
 }
 
 .privacy__news {
-  background: url(../archean-images/Privacy__policy__terms.png);
-  background-position: center;
+  background: url(../Background/Screen_backgr_03.jpg);
+  background-position: bottom center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -4722,8 +4768,7 @@ body h6 {
 }
 
 .FAQs__none {
-  background: url(../archean-images/FAQs__bg.png);
-  background-position: center;
+  background: url(../Background/Screen_backgr_02.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
